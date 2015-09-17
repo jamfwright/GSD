@@ -12,3 +12,6 @@ You will need to download/install the csvdiff file from here:  https://pypi.pyth
 You will also need to enable the Google Drive API and get your service account setup.  I used this very nice guide by Chris Moffitt as a starting point for the Google stuff:  http://pbpython.com/pandas-google-forms-part1.html
 
 Make sure you edit the appropriate areas of the scripts :)  As this was set up to be automated the script does not prompt the user for information.
+
+You can just run the python script on it's own and then run csvdiff manually.  The bash script is designed to run in cron and write all changes to a changelog file.
+
